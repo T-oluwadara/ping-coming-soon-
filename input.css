@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: hsl(354, 100%, 66%);
+  border-width: 1px;
+}
+
+.input-control.error {
+  color: hsl(354, 100%, 66%);
+  font-size: 13px;
+  text-align: right;
+  font-weight: 300;
+}
